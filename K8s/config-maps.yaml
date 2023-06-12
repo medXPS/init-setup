@@ -11,5 +11,5 @@ kind: ConfigMap
 metadata:
   name: mysql-cm
 data:
-  hostname: "mysql"
+  hostname: "mysql-0.mysql"
 
