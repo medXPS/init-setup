@@ -1,0 +1,15 @@
+#apiVersion: v1
+#kind: ConfigMap
+#metadata:
+  #name: eureka-cm
+#data:
+  #eureka_service_address: "http://eureka-0.eureka:8761/eureka"
+  #we used Kubernetes service registry instead of EUREKA svc-reg
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-cm
+data:
+  hostname: "mysql-0.mysql"
+
